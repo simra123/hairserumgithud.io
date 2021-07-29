@@ -1,0 +1,207 @@
+html,
+:root {
+    --main-color:#8c94c1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 200;
+    margin: 30px 0px;
+    padding: 0px 10px;
+    text-align: center;
+}
+a {
+    text-decoration: none !important;
+    color: rgb(33, 19, 232);
+    font-weight: 700;
+    display: contents;
+}
+.btn {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/* main header css   */
+.header {
+    background-color: var(--main-color);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 13px 0px;
+ 
+}
+
+/* section 1 giveaway */
+.giveaway {
+    margin: 5rem 0px;
+}
+
+.giveaway h6 {
+    font-size: 20px;
+    font-weight: 250;
+    padding: 0px 30px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.giveaway p {
+ 
+font-size:19px;
+line-height:25.7143px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin: 0px;
+padding:10px 10px 10px 10px;
+font-weight:400;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+color:#2f2f2fdc
+}
+.giveaway p::before{
+    font-family: FontAwesome;
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px
+}
+  
+/* review section css */
+.review {
+    padding: 4rem 0px;
+    background-color: var(--main-color);
+}
+.review h5 {
+    font-size: 25px;
+    font-weight: 200;
+
+}
+.review p {
+    font-size:19px;
+    line-height:25.7143px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin: 0px;
+ 
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    color:#2f2f2fdc
+}
+    
+
+/* section three happy customers  */
+.customers{
+    margin: 5rem auto;
+}
+
+/* footer css */
+.footer{
+    background-color: rgba(56, 56, 56, 0.0980392);
+    border-top: 2px solid rgba(47, 47, 47, 0.137255);
+    padding: 3rem 0;
+}
+.footer li {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    font-size: 15px;
+    padding-left: 6px;
+    font-weight: 100 !important;
+    color: rgba(47, 47, 47, 0.918);
+}
+    
+
+/******** responsive css ********/
+@media only screen and (min-width: 766px) and (max-width: 990px) {
+    .review p {
+        font-weight: 200;
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+}
+   
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .margin-sm{
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: 200;
+        margin: 30px 0px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    .review h5 {
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .giveaway {
+        margin: 3rem 0px;
+    }
+    h1 {
+        font-size: 25px;
+        padding: 0px 5px;
+        margin: 20px 0px;
+    }
+    .btn {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .review h5 {
+        margin: 20px 0px;
+    }
+    .margin-sm{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .giveaway {
+        margin: 3rem 0px;
+    }
+    h1 {
+        font-size: 25px;
+        padding: 0px 5px;
+        margin: 20px 0px;
+    }
+    .btn {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .review h5 {
+        margin: 20px 0px;
+    }
+    .margin-sm{
+        margin-top: 30px;
+    }
+}
+        
+
+
+
+    
+
+
+
+
+
