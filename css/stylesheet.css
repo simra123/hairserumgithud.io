@@ -1,0 +1,152 @@
+/****** BY SIMRAZ123/******
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/* declaring main colors */
+:root {
+    --green: rgb(0, 189, 57);
+    --black: rgb(37 37 37);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Montserrat;
+    text-align: center;
+    color: var(--black)
+}
+
+/* main head */
+.main-head{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: var(--black);
+    border-bottom: 5px solid var(--green);
+}  
+
+.main-head {
+    text-align: left;
+}
+
+/* video section */
+h1{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 40px;
+}
+h2 {
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    margin:10px 0;
+}
+p{
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    padding: 0;
+}
+iframe {
+    height: 500px;
+}
+
+#video-frame{
+    background-image: url('../assets/videobg.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding: 0 20px;
+}
+
+#video-frame p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 5px 0 ;
+    margin: 0;
+    font-weight: 400;
+}
+/* btn block */
+.small{
+    font-size: 18px;
+    font-weight: 300;
+}
+ /* shipping  and pay */
+.shipping-pay{
+    margin: 40px 0;
+    background-image: url('../assets//trafficbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+.shipping-pay img{
+     width: 200px;
+     height: auto;
+     margin-top: 20px;
+}
+i{
+    padding: auto 40px;
+}
+
+/* uses of flashlight section */
+h3{
+    font-weight: 390;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    color: var(--black);
+
+}
+.uses {
+    margin: 40px 0;
+}
+
+
+/* reviews section */
+
+#review p  {
+    font-size: 30px;
+    line-height: 1;
+    color: black;
+    padding: 20px 50px ;
+}
+#review img{
+    height: auto;
+    width: 500px;
+    box-shadow: 0px -9px 20px rgba(0, 0, 0, 0.39);
+}
+
+/* Footer */
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: var(--black);
+    border-top: 7px solid var(--green);
+
+}
+.footer img{
+    height: auto;
+    width: 300px;
+}
+
+.footer p {
+    font-size: 18px;
+    padding: 20px 80px;
+}
+
+ .footer a {
+    color: var(--green);
+} 
