@@ -39,7 +39,7 @@ h1{
     font-size: 56px;
     font-weight: 900;
     text-align: center;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 h2 {
     color: white;
@@ -55,16 +55,18 @@ p{
     padding: 0;
 }
 iframe {
-    height: 500px;
+    height: 560px;
 }
 
 #video-frame{
     background-image: url('../assets/videobg.png');
-    background-repeat: no-repeat;
-    position: relative;
+    padding: 0px 59px 13px;
+    margin: 0px -10px;
+    outline: none;
+    width: auto;
     background-position: center center;
-    background-size: cover;
-    padding: 0 20px;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
 }
 
 #video-frame p {
@@ -87,7 +89,7 @@ iframe {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 10px 30px;
 }
 .shipping-pay img{

@@ -4,7 +4,7 @@
 @media only screen and (min-width: 766px) and (max-width: 990px){
     h1{
         font-size: 50px;
-        padding: 20px 20px;
+        padding: 10px 20px;
     }
     h2{
         font-size: 35px;
@@ -12,6 +12,10 @@
     p {
         padding: 0 30px;
         font-size: 18px;
+    }
+    #video-frame{
+        padding: 0px 45px 13px;
+        margin: 0px -10px;
     }
     iframe {
         height: 400px;
@@ -40,10 +44,14 @@
     }
     h1{
         font-size: 30px;
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
     h2{
         font-size: 25px;
+    }
+    #video-frame{
+        padding: 0px 30px 13px;
+        margin: 0px -10px;
     }
     p {
         padding: 0 6px;
@@ -89,12 +97,16 @@
     h2{
         font-size: 20px;
     }
+    #video-frame{
+        padding: 0px 20px 13px;
+        margin: 0px -10px;
+    }
     p {
         padding: 0 6px;
         font-size: 13px;
     }
     iframe {
-        height: 200px;
+        height: 240px;
     }
     h3{
         font-size: 20px;
@@ -137,6 +149,10 @@
     }
     h2{
         font-size: 20px;
+    }
+    #video-frame{
+        padding: 0px 10px 13px;
+        margin: 0px -10px;
     }
     p {
         padding: 0 6px;
